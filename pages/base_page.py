@@ -1,5 +1,5 @@
-from selenium import webdriver
-browser = webdriver.chrome('C:\\Users\\vavil\\Desktop\\chromedriver.exe')
+#from selenium import webdriver
+#browser = webdriver.chrome('C:\\Users\\vavil\\Desktop\\chromedriver.exe')
 
 class BasePage():
     def __init__(self, browser, url):
